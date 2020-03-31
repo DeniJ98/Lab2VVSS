@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Empty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/StudentValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,113 +33,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="78123838">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="38" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="3" />
-          <entry key="xsl" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="38" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="505" />
-          <entry key="xml" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="505" />
-          <entry key="XML" value="31" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1215">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="491" selection-start-column="491" selection-end-column="491" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="490" selection-start-column="490" selection-end-column="490" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="179" column="57" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -152,49 +48,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Desktop/mpp-project" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/mpp-project" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/mpp-web-project" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/route-facilitator-demo" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/HasID.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractXMLRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/FileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/NotaFileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/NotaXMLRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Nota.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/StudentFileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/StudentXMLRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/TemaFileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Tema.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/TemaXMLRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/NotaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/ValidationException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/StudentValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/TemaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/curent/Curent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractFileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/CrudRepository.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -208,163 +61,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1ZtW5o8OVVZ58IRgrtLM09Lf8Lv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="curent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584533048374" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -374,24 +82,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\lab VVSS\Lab2VVSS\src\test\java\NituRazvan_JudeaDenisa_Lab3" />
       <recent name="C:\Users\Xps 9560\Documents\PPD\NituRazvan_JudeaDenisa_Lab3\src\test\java\NituRazvan_JudeaDenisa_Lab3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.AppTest.Group_TC_1">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NituRazvan_JudeaDenisa_Lab3" />
+      <module name="Lab2VVSS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
@@ -400,12 +97,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
       <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AppTest.Group_TC_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NituRazvan_JudeaDenisa_Lab3" />
+      <module name="Lab2VVSS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
@@ -420,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.Group_TC_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NituRazvan_JudeaDenisa_Lab3" />
+    <configuration name="AppTest.Name_TC_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2VVSS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
@@ -430,14 +128,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
       <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
-      <option name="METHOD_NAME" value="Group_TC_2" />
+      <option name="METHOD_NAME" value="Name_TC_11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NituRazvan_JudeaDenisa_Lab3" />
+    <configuration name="AppTest.Name_TC_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2VVSS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
@@ -446,24 +144,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
       <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="METHOD_NAME" value="Name_TC_6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.Name_TC_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
+      <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
+      <option name="METHOD_NAME" value="Name_TC_7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
-      <item itemvalue="JUnit.AppTest.Group_TC_1" />
+      <item itemvalue="JUnit.AppTest.Name_TC_6" />
+      <item itemvalue="JUnit.AppTest.Name_TC_7" />
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest.Group_TC_2" />
+      <item itemvalue="JUnit.AppTest.Group_TC_1" />
+      <item itemvalue="JUnit.AppTest.Name_TC_11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.Group_TC_1" />
-        <item itemvalue="JUnit.AppTest.Group_TC_2" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="JUnit.AppTest.Name_TC_11" />
+        <item itemvalue="JUnit.AppTest.Group_TC_1" />
+        <item itemvalue="JUnit.AppTest.Name_TC_7" />
+        <item itemvalue="JUnit.AppTest.Name_TC_6" />
       </list>
     </recent_temporary>
   </component>
@@ -483,321 +199,57 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="AppTest_Group_TC_2 - 2020.03.18 at 13h 36m 42s.xml">
-      <configuration name="AppTest.Group_TC_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_2 - 2020.03.18 at 13h 39m 28s.xml">
-      <configuration name="AppTest.Group_TC_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_1 - 2020.03.18 at 13h 40m 36s.xml">
-      <configuration name="AppTest.Group_TC_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_1 - 2020.03.18 at 13h 42m 21s.xml">
-      <configuration name="AppTest.Group_TC_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_2 - 2020.03.18 at 13h 42m 37s.xml">
-      <configuration name="AppTest.Group_TC_2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.03.18 at 13h 45m 17s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.03.18 at 13h 46m 01s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_1 - 2020.03.18 at 13h 46m 52s.xml">
-      <configuration name="AppTest.Group_TC_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_1 - 2020.03.18 at 13h 47m 34s.xml">
-      <configuration name="AppTest.Group_TC_1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_Group_TC_2 - 2020.03.18 at 13h 59m 57s.xml">
-      <configuration name="AppTest.Group_TC_2" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8493000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19194631" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4222874" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4692082" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49120235" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32937685" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20604026" />
-      <window_info anchor="right" id="Maven-2 Build" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/FileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/HasID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/NotaFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/NotaXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/StudentFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/StudentXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/TemaFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/TemaXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/NotaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/TemaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/ValidationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/curent/Curent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Nota.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Tema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="179" column="57" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti_TC2.xsl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="490" selection-start-column="490" selection-end-column="490" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="491" selection-start-column="491" selection-end-column="491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="557" y="158" key="#AppTest.Group_TC_1" timestamp="1585666854829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="158" key="#AppTest.Group_TC_1/0.0.1920.1040@0.0.1920.1040" timestamp="1585666854829" />
+    <state x="557" y="158" key="#AppTest.Group_TC_2" timestamp="1585667062275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="158" key="#AppTest.Group_TC_2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667062275" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585674092388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
+    <state width="914" height="413" key="GridCell.Tab.0.bottom" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.0.center" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.0.left" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.0.right" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.1.bottom" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.1.center" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.1.left" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
+    <state width="914" height="413" key="GridCell.Tab.1.right" timestamp="1585678481072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="413" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585678481072" />
   </component>
   <component name="masterDetails">
     <states>

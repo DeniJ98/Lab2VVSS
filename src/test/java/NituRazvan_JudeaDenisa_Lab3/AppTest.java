@@ -19,80 +19,113 @@ import java.util.stream.StreamSupport;
 /**
  * Unit test for simple App.
  */
-public class AppTest
-{
+
+public class AppTest {
+    String customString = "C:\\Users\\user\\Desktop\\lab VVSS\\";
     StudentValidator studentValidator = new StudentValidator();
     TemaValidator temaValidator = new TemaValidator();
     String filenameStudent;
-    String filenameTema = "C:\\Users\\Xps 9560\\Documents\\PPD\\NituRazvan_JudeaDenisa_Lab3\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Teme.xml";
-    String filenameNota = "C:\\Users\\Xps 9560\\Documents\\PPD\\NituRazvan_JudeaDenisa_Lab3\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Note.xml";
+    String filenameTema = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Teme.xml";
+    String filenameNota = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Note.xml";
 
     StudentXMLRepo studentXMLRepository;
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
     NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
     NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
     Service service;
+    Student student = new Student("nrie2378", "Razvan Nitu", 935, "mrie2378@scs.ubbcluj.ro");
 
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void Group_TC_1()
-    {
-        filenameStudent = "C:\\Users\\Xps 9560\\Documents\\PPD\\NituRazvan_JudeaDenisa_Lab3\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Studenti.xml";
-        studentXMLRepository = new StudentXMLRepo(filenameStudent);
-        service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
-
-        Random r = new Random();
-        int id = r.nextInt((9999 - 1000) + 1) + 1000;
-        String idStudent = "mrie" + id;
-        String numeStudent = "Razvan Nitu";
-        int grupa = 685;
-        String email = "mrie2378@scs.ubbcluj.ro";
-        Student student = new Student(idStudent, numeStudent, grupa, email);
-
-        long initialNumber = 0;
-        Iterable<Student> data = service.getAllStudenti();
-
-        for (Object i : data) {
-            initialNumber++;
-        }
-
-//        assertEquals(3,initialNumber);
-        service.addStudent(student);
-
-        long currentNumber = StreamSupport.stream(service.getAllStudenti().spliterator(), false).count();
-//        assertEquals(initialNumber + 1,currentNumber);
-        assertEquals(student, service.findStudent(idStudent));
+    public void Group_TC_1() {
+        RefreshData();
+        student.setGrupa(935);
+        assertEquals(Test(student), true);
+        DeleteData(student);
     }
 
     @Test
-    public void Group_TC_2()
+    public void Group_TC_2() {
+        RefreshData();
+        student.setGrupa(99);
+        assertEquals(Test(student), false);
+        DeleteData(student);
+    }
+
+    @Test
+    public void Name_TC_6() {
+        RefreshData();
+        student.setNume("Razvan Nitu");
+        assertEquals(Test(student), true);
+        DeleteData(student);
+    }
+    @Test
+    public void Name_TC_7() {
+        RefreshData();
+        student.setNume("j");
+        assertEquals(Test(student), false);
+        DeleteData(student);
+    }
+    @Test
+    public void Name_TC_11() {
+        RefreshData();
+        student.setNume("Razvan123");
+        assertEquals(Test(student), false);
+        DeleteData(student);
+
+    }
+    @Test
+    public void Email_TC_12() {
+        RefreshData();
+        student.setEmail("denisa@scs.ro");
+        assertEquals(Test(student), true);
+        DeleteData(student);
+
+    }
+    @Test
+    public void Email_TC_15() {
+        RefreshData();
+        student.setEmail("denisa.scs.ro");
+        assertEquals(Test(student), false);
+        DeleteData(student);
+
+    }
+
+    @Test
+    public void Id_TC_16() {
+        RefreshData();
+        student.setID("jdie2338");
+        assertEquals(Test(student), true);
+        DeleteData(student);
+
+    }
+
+    @Test
+    public void Id_TC_17() {
+        RefreshData();
+        student.setID("23dfg23sdf");
+        assertEquals(Test(student), false);
+        DeleteData(student);
+
+    }
+    public void RefreshData()
     {
-        filenameStudent = "C:\\Users\\Xps 9560\\Documents\\PPD\\NituRazvan_JudeaDenisa_Lab3\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\StudentiTC2.xml";
+        String fileName = "Studenti.xml";
+        filenameStudent = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\" + fileName;
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
+    }
+    public void DeleteData(Student student)
+    {
+        if (service.findStudent(student.getID()) != null)
+            service.deleteStudent(student.getID());
+    }
 
-        Random r = new Random();
-        int id = r.nextInt((9999 - 1000) + 1) + 1000;
-        String idStudent = "mrie" + id;
-        String numeStudent = "Razvan Nitu";
-        int grupa = 99;
-        String email = "mrie2378@scs.ubbcluj.ro";
-        Student student = new Student(idStudent, numeStudent, grupa, email);
-
-        long initialNumber = 0;
-        Iterable<Student> data = service.getAllStudenti();
-
-        for (Object i : data) {
-            initialNumber++;
-        }
-
-//        assertEquals(3,initialNumber);
+    public Boolean Test(Student student)
+    {
         service.addStudent(student);
-
-        long currentNumber = StreamSupport.stream(service.getAllStudenti().spliterator(), false).count();
-//        assertEquals(initialNumber+1,currentNumber);
-        assertEquals(student, service.findStudent(idStudent));
+        return service.findStudent(student.getID()) == student;
     }
 }

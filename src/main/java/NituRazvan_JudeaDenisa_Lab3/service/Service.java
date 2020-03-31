@@ -58,8 +58,15 @@ public class Service {
      * @return null daca studentul a fost adaugat cu succes sau studentul din memorie daca acesta exista deja
      */
     public Student addStudent(Student student) {
-        studentValidator.validate(student);
-        return studentFileRepository.save(student);
+        try{
+            studentValidator.validate(student);
+            return studentFileRepository.save(student);
+        }
+        catch (ValidationException ex)
+        {
+            System.out.println(ex.getMessage());
+        }
+        return null;
     }
 
     /**
@@ -68,6 +75,8 @@ public class Service {
      * @return studentul daca acesta a fost sters sau null daca studentul nu exista
      */
     public Student deleteStudent(String id){
+
+
         if(id == null || id.equals("")) {
             throw new ValidationException("Id-ul nu poate fi null!");
         }
