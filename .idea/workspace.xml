@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" afterDir="false" />
     </list>
@@ -64,8 +64,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
@@ -210,22 +210,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="134" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585727329731" />
-    <state width="914" height="367" key="GridCell.Tab.0.bottom" timestamp="1585727359849">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585729439243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585727359849" />
-    <state width="914" height="367" key="GridCell.Tab.0.center" timestamp="1585727359849">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439243" />
+    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585729439242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585727359849" />
-    <state width="914" height="367" key="GridCell.Tab.0.left" timestamp="1585727359849">
+    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
+    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585729439242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585727359849" />
-    <state width="914" height="367" key="GridCell.Tab.0.right" timestamp="1585727359849">
+    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585729439242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585727359849" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
     <state width="1877" height="164" key="GridCell.Tab.1.bottom" timestamp="1585727157692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,10 +242,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="164" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585727157692" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1585727296775">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585728376920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585727296775" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585728376920" />
+    <state x="717" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585728359958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585728359958" />
     <state x="1137" y="255" width="736" height="606" key="find.popup" timestamp="1585726492580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,8 +260,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java</url>
-          <line>135</line>
+          <line>153</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

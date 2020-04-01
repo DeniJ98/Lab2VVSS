@@ -118,8 +118,14 @@ public class Service {
      * @return null daca s-a facut adaugarea sau tema daca aceasta exista deja
      */
     public Tema addTema(Tema tema){
+        try{
         temaValidator.validate(tema);
         return temaFileRepository.save(tema);
+        }
+        catch(ValidationException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return null;
     }
 
     /**
