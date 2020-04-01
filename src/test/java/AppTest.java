@@ -16,12 +16,12 @@ import org.junit.Test;
  */
 
 public class AppTest {
-    String customString = "C:\\Users\\user\\Desktop\\lab VVSS\\";
+    String customString = "C:\\Users\\Xps 9560\\Documents\\UBB\\VVSS\\NituRazvan_JudeaDenisa_Lab3";
     StudentValidator studentValidator = new StudentValidator();
     TemaValidator temaValidator = new TemaValidator();
     String filenameStudent;
-    String filenameTema = customString + "Lab2VVSS\\src\\test\\java\\Teme.xml";
-    String filenameNota = customString + "Lab2VVSS\\src\\test\\java\\Note.xml";
+    String filenameTema = customString + "\\src\\test\\java\\Teme.xml";
+    String filenameNota = customString + "\\src\\test\\java\\Note.xml";
 
     StudentXMLRepo studentXMLRepository;
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
@@ -129,9 +129,9 @@ public class AppTest {
         String fisierStudenti = "Studenti.xml";
         String fisierTeme = "Teme.xml";
         String fisierNote = "Note.xml";
-        filenameTema = customString + "Lab2VVSS\\src\\test\\java\\" + fisierTeme;
-        filenameNota = customString + "Lab2VVSS\\src\\test\\java\\" + fisierNote;
-        filenameStudent = customString + "Lab2VVSS\\src\\test\\java\\" + fisierStudenti;
+        filenameTema = customString + "\\src\\test\\java\\" + fisierTeme;
+        filenameNota = customString + "\\src\\test\\java\\" + fisierNote;
+        filenameStudent = customString + "\\src\\test\\java\\" + fisierStudenti;
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
     }
