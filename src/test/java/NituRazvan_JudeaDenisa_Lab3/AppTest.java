@@ -1,3 +1,5 @@
+package NituRazvan_JudeaDenisa_Lab3;
+
 import static org.junit.Assert.assertEquals;
 import NituRazvan_JudeaDenisa_Lab3.domain.Student;
 import NituRazvan_JudeaDenisa_Lab3.domain.Tema;
