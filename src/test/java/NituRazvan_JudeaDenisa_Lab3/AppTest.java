@@ -11,8 +11,12 @@ import NituRazvan_JudeaDenisa_Lab3.service.Service;
 import NituRazvan_JudeaDenisa_Lab3.validation.NotaValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.StudentValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.TemaValidator;
+import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 
+import java.sql.Ref;
 import java.util.Random;
 import java.util.stream.StreamSupport;
 
@@ -110,6 +114,8 @@ public class AppTest {
         DeleteData(student);
 
     }
+
+
     public void RefreshData()
     {
         String fileName = "Studenti.xml";
@@ -117,6 +123,8 @@ public class AppTest {
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
     }
+
+
     public void DeleteData(Student student)
     {
         if (service.findStudent(student.getID()) != null)
