@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Ahmed Elgendy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ahmed Elgendy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/DataInceput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataInceput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Empty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Empty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Note.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Studenti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentiTC2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Teme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Teme.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/eu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/judea denisa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/judea denisa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/la.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/la.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Ahmed Elgendy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/DataInceput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Note.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Note.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Teme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Teme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/eu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/judea denisa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/la.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Removed RELEASE version of JUNIT plugin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,6 +184,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed RELEASE version of JUNIT plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed RELEASE version of JUNIT plugin" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="557" y="158" key="#AppTest.Group_TC_1" timestamp="1585666854829">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -234,22 +205,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="134" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585731961377" />
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585731927171">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585732250532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
-    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585731927171">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585732250532" />
+    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585732250532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
-    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585731927170">
+    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585732250532" />
+    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585732250531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927170" />
-    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585731927171">
+    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585732250531" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585732250532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585732250532" />
     <state width="1877" height="164" key="GridCell.Tab.1.bottom" timestamp="1585727157692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
