@@ -3,9 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Ahmed Elgendy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ahmed Elgendy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/DataInceput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataInceput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Empty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Empty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Studenti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentiTC2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Teme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/Teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Teme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/eu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/judea denisa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/judea denisa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/la.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/la.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Ahmed Elgendy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/DataInceput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Empty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Note.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Studenti.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Studenti.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/StudentiTC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Teme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/Teme.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/eu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/judea denisa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/NituRazvan_JudeaDenisa_Lab3/la.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +97,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\lab VVSS\Lab2VVSS\src\test\java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\lab VVSS\Lab2VVSS\src\test\java\NituRazvan_JudeaDenisa_Lab3" />
       <recent name="C:\Users\Xps 9560\Documents\PPD\NituRazvan_JudeaDenisa_Lab3\src\test\java\NituRazvan_JudeaDenisa_Lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest (1)">
+    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2VVSS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2VVSS" />
       <extension name="coverage">
@@ -122,22 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.Name_TC_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
-      <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
-      <option name="METHOD_NAME" value="Name_TC_6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.Name_TC_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2VVSS" />
       <extension name="coverage">
@@ -155,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest.Name_TC_6" />
       <item itemvalue="JUnit.AppTest.Name_TC_7" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AppTest.Group_TC_1" />
       <item itemvalue="JUnit.AppTest.Name_TC_11" />
+      <item itemvalue="JUnit.AppTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest (1)" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.Group_TC_1" />
         <item itemvalue="JUnit.AppTest.Name_TC_11" />
         <item itemvalue="JUnit.AppTest.Name_TC_7" />
-        <item itemvalue="JUnit.AppTest.Name_TC_6" />
       </list>
     </recent_temporary>
   </component>
@@ -206,26 +230,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
-    <state x="134" y="118" key="CommitChangelistDialog2" timestamp="1585727329731">
+    <state x="134" y="118" key="CommitChangelistDialog2" timestamp="1585731961377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="134" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585727329731" />
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585729439243">
+    <state x="134" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585731961377" />
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585731927171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439243" />
-    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585729439242">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
+    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585731927171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
-    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585729439242">
+    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
+    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585731927170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
-    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585729439242">
+    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927170" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585731927171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585729439242" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585731927171" />
     <state width="1877" height="164" key="GridCell.Tab.1.bottom" timestamp="1585727157692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,10 +266,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="164" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585727157692" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1585728376920">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585731530952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585728376920" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585731530952" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585731996504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585731996504" />
     <state x="717" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585728359958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,12 +287,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
           <line>153</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
           <line>146</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>

@@ -1,4 +1,3 @@
-package NituRazvan_JudeaDenisa_Lab3;
 import static org.junit.Assert.assertEquals;
 import NituRazvan_JudeaDenisa_Lab3.domain.Student;
 import NituRazvan_JudeaDenisa_Lab3.domain.Tema;
@@ -21,8 +20,8 @@ public class AppTest {
     StudentValidator studentValidator = new StudentValidator();
     TemaValidator temaValidator = new TemaValidator();
     String filenameStudent;
-    String filenameTema = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Teme.xml";
-    String filenameNota = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Note.xml";
+    String filenameTema = customString + "Lab2VVSS\\src\\test\\java\\Teme.xml";
+    String filenameNota = customString + "Lab2VVSS\\src\\test\\java\\Note.xml";
 
     StudentXMLRepo studentXMLRepository;
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
@@ -130,9 +129,9 @@ public class AppTest {
         String fisierStudenti = "Studenti.xml";
         String fisierTeme = "Teme.xml";
         String fisierNote = "Note.xml";
-        filenameTema = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\" + fisierTeme;
-        filenameNota = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\Note.xml" + fisierNote;
-        filenameStudent = customString + "Lab2VVSS\\src\\test\\java\\NituRazvan_JudeaDenisa_Lab3\\" + fisierStudenti;
+        filenameTema = customString + "Lab2VVSS\\src\\test\\java\\" + fisierTeme;
+        filenameNota = customString + "Lab2VVSS\\src\\test\\java\\" + fisierNote;
+        filenameStudent = customString + "Lab2VVSS\\src\\test\\java\\" + fisierStudenti;
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
     }
