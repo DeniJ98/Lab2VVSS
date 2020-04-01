@@ -16,12 +16,11 @@ import org.junit.Test;
  */
 
 public class AppTest {
-    String customString = "C:\\Users\\Xps 9560\\Documents\\UBB\\VVSS\\NituRazvan_JudeaDenisa_Lab3";
     StudentValidator studentValidator = new StudentValidator();
     TemaValidator temaValidator = new TemaValidator();
     String filenameStudent;
-    String filenameTema = customString + "\\src\\test\\java\\Teme.xml";
-    String filenameNota = customString + "\\src\\test\\java\\Note.xml";
+    String filenameTema = "files/Teme.xml";
+    String filenameNota = "files/Note.xml";
 
     StudentXMLRepo studentXMLRepository;
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
@@ -126,12 +125,12 @@ public class AppTest {
 
     public void RefreshData()
     {
-        String fisierStudenti = "Studenti.xml";
-        String fisierTeme = "Teme.xml";
-        String fisierNote = "Note.xml";
-        filenameTema = customString + "\\src\\test\\java\\" + fisierTeme;
-        filenameNota = customString + "\\src\\test\\java\\" + fisierNote;
-        filenameStudent = customString + "\\src\\test\\java\\" + fisierStudenti;
+        String fisierStudenti = "files/Studenti.xml";
+        String fisierTeme = "files/Teme.xml";
+        String fisierNote = "files/Note.xml";
+        filenameTema = fisierTeme;
+        filenameNota =  fisierNote;
+        filenameStudent = fisierStudenti;
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
     }
