@@ -10,6 +10,7 @@ import NituRazvan_JudeaDenisa_Lab3.validation.NotaValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.StudentValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.TemaValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.ValidationException;
+import NituRazvan_JudeaDenisa_Lab3.validation.parameters.ParametersValidator;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -31,6 +32,7 @@ public class Service {
     //private NotaFileRepository notaFileRepository;
     private NotaXMLRepo notaFileRepository;
     private NotaValidator notaValidator;
+    private ParametersValidator parametersValidator;
 
     /**
      * Class Constructor
@@ -42,7 +44,7 @@ public class Service {
      * @param notaValidator - validator nota
      */
     //public Service(StudentFileRepository studentFileRepository, StudentValidator studentValidator, TemaFileRepository temaFileRepository, TemaValidator temaValidator, NotaFileRepository notaFileRepository, NotaValidator notaValidator) {
-    public Service(StudentXMLRepo studentFileRepository, StudentValidator studentValidator, TemaXMLRepo temaFileRepository, TemaValidator temaValidator, NotaXMLRepo notaFileRepository, NotaValidator notaValidator) {
+    public Service(StudentXMLRepo studentFileRepository, StudentValidator studentValidator, TemaXMLRepo temaFileRepository, TemaValidator temaValidator, NotaXMLRepo notaFileRepository, NotaValidator notaValidator, ParametersValidator parametersValidator) {
 
         this.studentFileRepository = studentFileRepository;
         this.studentValidator = studentValidator;
@@ -50,15 +52,16 @@ public class Service {
         this.temaValidator = temaValidator;
         this.notaFileRepository = notaFileRepository;
         this.notaValidator = notaValidator;
+        this.parametersValidator = parametersValidator;
     }
 
     /**
      * adauga un Student in memorie
-     * @param student - studentul pe care il adauga
      * @return null daca studentul a fost adaugat cu succes sau studentul din memorie daca acesta exista deja
      */
-    public Student addStudent(Student student) {
+    public Student addStudent(String idStudent, String nume, String grupa, String email) {
         try{
+            Student student = parametersValidator.validateParametersStudent(idStudent, nume, grupa, email);
             studentValidator.validate(student);
             return studentFileRepository.save(student);
         }
