@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Removed RELEASE version of JUNIT plugin">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ahmed Elgendy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/Ahmed Elgendy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataInceput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/DataInceput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/Note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/Note.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/Studenti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/Studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StudentiTC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/StudentiTC2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/Teme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/Teme.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/eu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/judea denisa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/judea denisa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/la.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/la.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,137 +31,17 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="851847873">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="12" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractXMLRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/TemaValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/domain/Tema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="179" column="57" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
-      </list>
-    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -186,78 +56,16 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NituRazvan_JudeaDenisa_Lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
-  </component>
   <component name="ProjectId" id="1ZtW5o8OVVZ58IRgrtLM09Lf8Lv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NituRazvan_JudeaDenisa_Lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585733806428" />
@@ -279,23 +87,12 @@
       <recent name="C:\Users\user\Desktop\lab VVSS\Lab2VVSS\src\test\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.AppTest (1)">
     <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2VVSS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,6 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
       <option name="MAIN_CLASS_NAME" value="NituRazvan_JudeaDenisa_Lab3.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,40 +196,6 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9449000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36950147" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4692082" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37096775" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32937685" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15973154" />
-      <window_info anchor="right" id="Maven-2 Build" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -452,26 +216,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
-    <state x="134" y="118" key="CommitChangelistDialog2" timestamp="1585731961377">
+    <state x="278" y="185" key="CommitChangelistDialog2" timestamp="1586793146408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="134" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585731961377" />
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1585732507888">
+    <state x="278" y="185" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586793146408" />
+    <state x="0" y="157" key="DiffContextDialog" timestamp="1586793103600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585732507888" />
-    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1585732507887">
+    <state x="0" y="157" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586793103600" />
+    <state width="914" height="367" key="GridCell.Tab.0.bottom" timestamp="1585734430835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585732507887" />
-    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1585732507886">
+    <state width="914" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585734430835" />
+    <state width="914" height="367" key="GridCell.Tab.0.center" timestamp="1585734430835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585732507886" />
-    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1585732507887">
+    <state width="914" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585734430835" />
+    <state width="914" height="367" key="GridCell.Tab.0.left" timestamp="1585734430835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585732507887" />
+    <state width="914" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585734430835" />
+    <state width="914" height="367" key="GridCell.Tab.0.right" timestamp="1585734430835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585734430835" />
     <state width="1877" height="164" key="GridCell.Tab.1.bottom" timestamp="1585732348042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -492,63 +260,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585731530952" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585731996504">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586793199980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585731996504" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586793199980" />
     <state x="717" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585728359958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585728359958" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586788837716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586788837716" />
     <state x="1137" y="255" width="736" height="606" key="find.popup" timestamp="1585726492580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1137" y="255" width="736" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585726492580" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/test-classes/AppTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

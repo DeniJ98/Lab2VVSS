@@ -107,11 +107,10 @@ public class UI {
         scanner.nextLine();
         String numeStudent = scanner.nextLine();
         System.out.print("Introduceti grupa: ");
-        int grupa = scanner.nextInt();
+        String grupa = scanner.nextLine();
         System.out.print("Introduceti email: ");
         String email = scanner.next();
-        Student student = new Student(idStudent, numeStudent, grupa, email);
-        Student student1 = service.addStudent(student);
+        Student student1 = service.addStudent(idStudent, numeStudent, grupa, email);
         if (student1 == null) {
             System.out.println("Student adaugat cu succes!");
         } else {
