@@ -9,6 +9,7 @@ import NituRazvan_JudeaDenisa_Lab3.service.Service;
 import NituRazvan_JudeaDenisa_Lab3.validation.NotaValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.StudentValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.TemaValidator;
+import NituRazvan_JudeaDenisa_Lab3.validation.parameters.ParametersValidator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,13 +32,14 @@ public class WhiteBoxTests {
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
     NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
     NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
+    ParametersValidator parametersValidator = new ParametersValidator();
     Service service;
     Tema tema = new Tema("8931", "descriere", 5, 10);
 
     @Before
     public void init(){
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
-        service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
+        service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator, parametersValidator);
     }
 
     @After

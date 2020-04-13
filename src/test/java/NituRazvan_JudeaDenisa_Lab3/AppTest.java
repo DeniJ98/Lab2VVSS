@@ -9,6 +9,7 @@ import NituRazvan_JudeaDenisa_Lab3.service.Service;
 import NituRazvan_JudeaDenisa_Lab3.validation.NotaValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.StudentValidator;
 import NituRazvan_JudeaDenisa_Lab3.validation.TemaValidator;
+import NituRazvan_JudeaDenisa_Lab3.validation.parameters.ParametersValidator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -33,50 +34,59 @@ public class AppTest {
     TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
     NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
     NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
+    ParametersValidator parametersValidator = new ParametersValidator();
     Service service;
-    Student student = new Student("nrie2378", "Razvan Nitu", 935, "mrie2378@scs.ubbcluj.ro");
+
+    String id;
+    String nume ;
+    String grupa;
+    String email;
 
     @BeforeEach
     public void init()
     {
+        id = "nrie2378";
+        nume = "Razvan Nitu";
+        grupa = "935";
+        email = "mrie2378@scs.ubbcluj.ro";
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
-        service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator);
+        service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator, parametersValidator);
     }
 
     @AfterEach
     public void reset()
     {
-        if (service.findStudent(student.getID()) != null)
-            service.deleteStudent(student.getID());
+        if (service.findStudent(id) != null)
+            service.deleteStudent(id);
     }
 
     @ParameterizedTest
     @CsvSource({"935,true", "99,false"})
-    public void Group_TC1_TC2(int grupa, boolean expected){
-        student.setGrupa(grupa);
-        assertEquals(Test(student), expected);
+    public void Group_TC1_TC2(String grupa, boolean expected){
+        this.grupa = grupa;
+        assertEquals(Test(), expected);
     }
 
     @ParameterizedTest
     @CsvSource({"Razvan Nitu,true", "j,false","Razvan123,false"})
     public void Name_TC6_TC7_TC11(String nume, boolean expected){
-        student.setNume(nume);
-        assertEquals(Test(student), expected);
+        this.nume=nume;
+        assertEquals(Test(), expected);
     }
 
 
     @ParameterizedTest
     @CsvSource({"denisa@scs.ro,true", "denisa.scs.ro,false"})
     public void Email_TC12_TC15(String email, boolean expected){
-        student.setEmail(email);
-        assertEquals(Test(student), expected);
+        this.email = email;
+        assertEquals(Test(), expected);
     }
 
     @ParameterizedTest
     @CsvSource({"jdie2338,true", "23dfg23sdf,false"})
     public void Id_TC16_TC17(String id, boolean expected){
-        student.setID(id);
-        assertEquals(Test(student), expected);
+        this.id = id;
+        assertEquals(Test(), expected);
     }
 
     // BLACK-BOX TESTING
@@ -135,10 +145,15 @@ public class AppTest {
 //    }
 
 
-    private Boolean Test(Student student)
+    private Boolean Test()
     {
-        service.addStudent(student);
-        return service.findStudent(student.getID()) == student;
+        service.addStudent(id, nume, grupa, email);
+        Student ret = service.findStudent(id);
+        if(ret == null)
+            return false;
+
+        return ret.getID().equals(id) && ret.getNume().equals(nume) &&
+                Integer.toString(ret.getGrupa()).equals(grupa) && ret.getEmail().equals(email);
     }
 
 
