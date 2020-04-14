@@ -99,42 +99,125 @@ public class AppTest {
     }
 
     @Test
-    public void Name_TC_6() {
+    public void Group_TC_3() {
+        this.grupa = Integer.toString(1005);
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Group_TC_4() {
+        this.grupa = "234r";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Group_TC_5() {
+        this.grupa = Integer.toString(100);
+        assertEquals(Test(), true);
+    }
+
+    @Test
+    public void Group_TC_6() {
+        this.grupa = Integer.toString(999);
+        assertEquals(Test(), true);
+    }
+
+    @Test
+    public void Group_TC_7() {
+        this.grupa = Integer.toString(101);
+        assertEquals(Test(), true);
+    }
+
+    @Test
+    public void Group_TC_8() {
+        this.grupa = Integer.toString(998);
+        assertEquals(Test(), true);
+    }
+
+    @Test
+    public void Name_TC_9() {
         this.nume = "Razvan Nitu";
         assertEquals(Test(), true);
     }
+
     @Test
-    public void Name_TC_7() {
-        this.nume = "j";
+    public void Name_TC_10() {
+        this.nume = "1234";
         assertEquals(Test(), false);
     }
+
     @Test
     public void Name_TC_11() {
         this.nume = "Razvan123";
         assertEquals(Test(), false);
     }
+
     @Test
-    public void Email_TC_12() {
-        this.email ="denisa@scs.ro";
+    public void Name_TC_12() {
+        this.nume = "j";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Name_TC_13() {
+        this.nume = "jd";
         assertEquals(Test(), true);
     }
-    @Test
-    public void Email_TC_15() {
-        this.email ="denisa.scs.ro";
-        assertEquals(Test(), false);
 
+    @Test
+    public void Name_TC_14() {
+        this.nume = "jda";
+        assertEquals(Test(), true);
     }
 
+
     @Test
-    public void Id_TC_16() {
+    public void Id_TC_15() {
        this.id = "jdie2338";
         assertEquals(Test(), true);
     }
 
     @Test
-    public void Id_TC_17() {
-        this.id = "23dfg23sdf";
+    public void Id_TC_16() {
+        this.id = "jdied2338";
         assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Id_TC_17() {
+        this.id = "jdi2338";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Id_TC_18() {
+        this.id = "jdie23381";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Id_TC_19() {
+        this.id = "jdie233";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Email_TC_20() {
+        this.email ="denisa@scs.ro";
+        assertEquals(Test(), true);
+    }
+
+    @Test
+    public void Email_TC_21() {
+        this.email ="1234";
+        assertEquals(Test(), false);
+    }
+
+    @Test
+    public void Email_TC_22() {
+        this.email ="denisa.scs.ro";
+        assertEquals(Test(), false);
+
     }
 
     private Boolean Test()

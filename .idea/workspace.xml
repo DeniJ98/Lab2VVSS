@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Removed RELEASE version of JUNIT plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,27 +44,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1084" />
+          <entry key="java" value="1205" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1084" />
+          <entry key="JAVA" value="1205" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.14996174">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1304">
-                  <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+                <state relative-caret-position="-90">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -136,8 +135,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="981">
-                  <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+                <state relative-caret-position="273">
+                  <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -182,10 +181,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" />
         <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java" />
       </list>
     </option>
   </component>
@@ -349,7 +348,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586886495047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586889226220" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -380,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiteBoxTests">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2VVSS" />
       <option name="PACKAGE_NAME" value="" />
@@ -460,8 +459,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WhiteBoxTests" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.WhiteBoxTests" />
         <item itemvalue="JUnit.AppTest (1)" />
         <item itemvalue="JUnit.AppTest.Group_TC_1" />
         <item itemvalue="JUnit.AppTest.Name_TC_11" />
@@ -485,15 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.04.13 at 20h 07m 36s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.04.13 at 20h 08m 39s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.04.13 at 20h 10m 19s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2020.04.13 at 20h 11m 11s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -515,15 +505,24 @@
     <history-entry file="AppTest - 2020.04.14 at 17h 03m 41s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WhiteBoxTests - 2020.04.14 at 20h 52m 31s.xml">
+      <configuration name="WhiteBoxTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.04.14 at 21h 00m 11s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.04.14 at 21h 00m 37s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19918000" />
+    <option name="totallyTimeSpent" value="21318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -532,14 +531,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7082111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.055718474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4692082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32973504" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1686217" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1686217" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32875368" />
       <window_info anchor="bottom" id="Maven test results" order="12" weight="0.32973504" />
@@ -690,18 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="121" column="24" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        <state relative-caret-position="10">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -710,8 +699,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        <state relative-caret-position="-90">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
