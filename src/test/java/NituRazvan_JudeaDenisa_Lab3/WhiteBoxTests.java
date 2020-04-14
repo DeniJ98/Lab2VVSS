@@ -28,25 +28,33 @@ public class WhiteBoxTests {
     String filenameNota = "files/Note.xml";
 
 
-    StudentXMLRepo studentXMLRepository;
-    TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
+    StudentXMLRepo studentXMLRepository = new StudentXMLRepo(filenameStudent);
+    TemaXMLRepo temaXMLRepository;
     NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
     NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
     ParametersValidator parametersValidator = new ParametersValidator();
     Service service;
-    Tema tema = new Tema("8931", "descriere", 5, 10);
+
+    String nrTema;
+    String descriere;
+    String deadline;
+    String primire;
 
     @Before
     public void init(){
-        studentXMLRepository = new StudentXMLRepo(filenameStudent);
+        nrTema = "8931";
+        descriere = "descriere";
+        deadline = "5";
+        primire = "10";
+        temaXMLRepository =  new TemaXMLRepo(filenameTema);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator, parametersValidator);
     }
 
     @After
     public void reset()
     {
-        if (service.findTema(tema.getID()) != null)
-            service.deleteTema(tema.getID());
+        if (service.findTema(nrTema) != null)
+            service.deleteTema(nrTema);
     }
 
 
@@ -54,22 +62,27 @@ public class WhiteBoxTests {
     @Test
     public void Deadline_TC_1()
     {
-        tema.setDeadline(7);
-        assertEquals(TestTema(tema), true);
+        deadline= "7";
+        assertEquals(TestTema(), true);
     }
 
     @Test
     public void Deadline_TC_2()
     {
-        tema.setDeadline(18);
-        assertEquals(TestTema(tema), false);
+        deadline = "18";
+        assertEquals(TestTema(), false);
     }
 
 
-    private Boolean TestTema(Tema tema)
+    private Boolean TestTema()
     {
-        service.addTema(tema);
-        return service.findTema(tema.getID()) == tema;
+        service.addTema(nrTema, descriere, deadline, primire);
+        Tema ret = service.findTema(nrTema);
+        if(ret == null)
+            return false;
+
+        return ret.getID().equals(nrTema) && ret.getDescriere().equals(descriere) &&
+                Integer.toString(ret.getDeadline()).equals(deadline) && Integer.toString(ret.getPrimire()).equals(primire) ;
     }
 
 }

@@ -117,13 +117,13 @@ public class Service {
 
     /**
      * Adauga o tema noua
-     * @param tema  - tema pe care o adauga
      * @return null daca s-a facut adaugarea sau tema daca aceasta exista deja
      */
-    public Tema addTema(Tema tema){
+    public Tema addTema(String nrTema,String descriere, String deadline, String primire ){
         try{
-        temaValidator.validate(tema);
-        return temaFileRepository.save(tema);
+            Tema tema = parametersValidator.validateParametersTema(nrTema, descriere,deadline ,primire );
+            temaValidator.validate(tema);
+            return temaFileRepository.save(tema);
         }
         catch(ValidationException ex) {
             System.out.println(ex.getMessage());

@@ -234,11 +234,10 @@ public class UI {
         scanner.nextLine();
         String descriere = scanner.nextLine();
         System.out.print("Introduceti deadline-ul(nr saptamanii): ");
-        int deadline = scanner.nextInt();
+        String deadline = scanner.nextLine();
         System.out.print("Introduceti saptamana primirii: ");
-        int primire = scanner.nextInt();
-        Tema tema = new Tema(nrTema, descriere, deadline, primire);
-        tema = service.addTema(tema);
+        String primire = scanner.nextLine();
+        Tema tema =  service.addTema(nrTema,descriere,deadline,primire);
         if (tema == null) {
             System.out.println("Tema adaugata cu succes!");
         } else {
