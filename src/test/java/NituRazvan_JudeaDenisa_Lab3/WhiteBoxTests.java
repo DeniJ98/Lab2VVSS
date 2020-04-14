@@ -48,41 +48,77 @@ public class WhiteBoxTests {
         primire = "10";
         temaXMLRepository =  new TemaXMLRepo(filenameTema);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator, parametersValidator);
+
     }
 
     @After
     public void reset()
     {
-        if (service.findTema(nrTema) != null)
-            service.deleteTema(nrTema);
+        if(nrTema != null && !nrTema.equals("")) {
+            if (service.findTema(nrTema) != null)
+                service.deleteTema(nrTema);
+        }
     }
 
 
     // WHITE-BOX TESTING - FOR LAB3 In Class!!!!
     @Test
-    public void Deadline_TC_1()
+    public void TC_1() // tema corecta adaugata
     {
-        deadline= "7";
         assertEquals(TestTema(), true);
+    }
+    @Test
+    public void TC_2() // exista deja tema
+    {
+        service.addTema(nrTema, descriere, deadline, primire);
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_3() // Deadline-ul trebuie sa fie un numar!
+    {
+        deadline = "3d";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_4() // Primirea trebuie sa fie un numar!
+    {
+        primire = "3d";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_5() // Numar tema invalid!
+    {
+        nrTema = "";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_6()  // Descriere invalida!
+    {
+        descriere = "";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_7()  // Deadline-ul trebuie sa fie intre 1-14.
+    {
+        deadline = "17";
+        assertEquals(TestTema(), false);
     }
 
     @Test
-    public void Deadline_TC_2()
+    public void TC_8()  // Saptamana primirii trebuie sa fie intre 1-14.
     {
-        deadline = "18";
+        primire = "17";
         assertEquals(TestTema(), false);
     }
 
 
     private Boolean TestTema()
     {
-        service.addTema(nrTema, descriere, deadline, primire);
-        Tema ret = service.findTema(nrTema);
-        if(ret == null)
+        Tema ret = service.addTema(nrTema, descriere, deadline, primire);
+        if (ret == null)
             return false;
-
-        return ret.getID().equals(nrTema) && ret.getDescriere().equals(descriere) &&
-                Integer.toString(ret.getDeadline()).equals(deadline) && Integer.toString(ret.getPrimire()).equals(primire) ;
+        else
+            return true;
     }
 
 }

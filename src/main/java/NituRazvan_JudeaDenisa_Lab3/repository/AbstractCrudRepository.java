@@ -42,19 +42,12 @@ public abstract class AbstractCrudRepository <ID, E extends NituRazvan_JudeaDeni
      */
     @Override
     public E save(E entity) {
-        /*
-        for(ID id: elemente.keySet()){
-            if(id == entity.getID()){
-                return elemente.get(id);
-            }
-        }
-        */
         E el = this.findOne(entity.getID());
         if (el==null){
             this.elemente.put(entity.getID(), entity);
-            return null;
+            return entity;
         }
-        else return entity;
+        else return null;
 
     }
 
