@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Removed RELEASE version of JUNIT plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/view/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" afterDir="false" />
     </list>
@@ -198,6 +194,28 @@
       <workItem from="1584484689315" duration="113000" />
       <workItem from="1584484831101" duration="7881000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed save function from AbstractCrudRepository">
+      <created>1586907527787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586907527787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed if condition inside adaugaTema function">
+      <created>1586907597625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586907597625</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added the extra check regarding &quot;tema&quot; existence">
+      <created>1586907658393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586907658393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -208,7 +226,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed RELEASE version of JUNIT plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed RELEASE version of JUNIT plugin" />
+    <MESSAGE value="Changed save function from AbstractCrudRepository" />
+    <MESSAGE value="Changed if condition inside adaugaTema function" />
+    <MESSAGE value="Added the extra check regarding &quot;tema&quot; existence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the extra check regarding &quot;tema&quot; existence" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="175" key="#AppTest" timestamp="1586907400121">
@@ -231,14 +252,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586907461160">
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586907657854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907461160" />
-    <state x="0" y="157" key="DiffContextDialog" timestamp="1586793103600">
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907657854" />
+    <state x="0" y="157" key="DiffContextDialog" timestamp="1586907475759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="157" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586793103600" />
+    <state x="0" y="157" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586907475759" />
     <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1586907414064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
