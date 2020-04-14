@@ -24,23 +24,23 @@ import org.junit.jupiter.params.provider.CsvSource;
  */
 
 public class AppTest {
-    StudentValidator studentValidator = new StudentValidator();
-    TemaValidator temaValidator = new TemaValidator();
-    String filenameStudent = "files/Studenti.xml";
-    String filenameTema = "files/Teme.xml";
-    String filenameNota = "files/Note.xml";
+    private StudentValidator studentValidator = new StudentValidator();
+    private TemaValidator temaValidator = new TemaValidator();
+    private String filenameStudent = "files/Studenti.xml";
+    private String filenameTema = "files/Teme.xml";
+    private String filenameNota = "files/Note.xml";
 
-    StudentXMLRepo studentXMLRepository;
-    TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
-    NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
-    NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
-    ParametersValidator parametersValidator = new ParametersValidator();
-    Service service;
+    private StudentXMLRepo studentXMLRepository;
+    private TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
+    private NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
+    private NotaXMLRepo notaXMLRepository = new NotaXMLRepo(filenameNota);
+    private ParametersValidator parametersValidator = new ParametersValidator();
+    private Service service;
 
-    String id;
-    String nume ;
-    String grupa;
-    String email;
+    private String id;
+    private String nume ;
+    private String grupa;
+    private String email;
 
     @BeforeEach
     public void init()
@@ -88,61 +88,6 @@ public class AppTest {
         this.id = id;
         assertEquals(Test(), expected);
     }
-
-    // BLACK-BOX TESTING
-//    @Test
-//    public void Group_TC_1() {
-//        student.setGrupa(935);
-//        assertEquals(Test(student), true);
-//    }
-//
-//    @Test
-//    public void Group_TC_2() {
-//        student.setGrupa(99);
-//        assertEquals(Test(student), false);
-//    }
-
-//    @Test
-//    public void Name_TC_6() {
-//        student.setNume("Razvan Nitu");
-//        assertEquals(Test(student), true);
-//    }
-//
-//    @Test
-//    public void Name_TC_7() {
-//        student.setNume("j");
-//        assertEquals(Test(student), false);
-//    }
-
-//    @Test
-//    public void Name_TC_11() {
-//        student.setNume("Razvan123");
-//        assertEquals(Test(student), false);
-//    }
-
-//    @Test
-//    public void Email_TC_12() {
-//        student.setEmail("denisa@scs.ro");
-//        assertEquals(Test(student), true);
-//    }
-//
-//    @Test
-//    public void Email_TC_15() {
-//        student.setEmail("denisa.scs.ro");
-//        assertEquals(Test(student), false);
-//    }
-
-//    @Test
-//    public void Id_TC_16() {
-//        student.setID("jdie2338");
-//        assertEquals(Test(student), true);
-//    }
-//
-//    @Test
-//    public void Id_TC_17() {
-//        student.setID("23dfg23sdf");
-//        assertEquals(Test(student), false);
-//    }
 
 
     private Boolean Test()
