@@ -223,13 +223,10 @@ public class UI {
      * Adauga o tema
      * @throws ValidationException daca tema exista deja
      */
-    private void adaugaTema() throws ValidationException{
+    private void adaugaTema() throws ValidationException {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduceti nr tema: ");
         String nrTema = scanner.next();
-        if (service.findTema(nrTema) != null) {
-            throw new ValidationException("Tema exista deja!");
-        }
         System.out.print("Introduceti descrierea: ");
         scanner.nextLine();
         String descriere = scanner.nextLine();
@@ -237,11 +234,9 @@ public class UI {
         String deadline = scanner.nextLine();
         System.out.print("Introduceti saptamana primirii: ");
         String primire = scanner.nextLine();
-        Tema tema =  service.addTema(nrTema,descriere,deadline,primire);
-        if (tema == null) {
+        Tema tema = service.addTema(nrTema, descriere, deadline, primire);
+        if (tema != null) {
             System.out.println("Tema adaugata cu succes!");
-        } else {
-            System.out.println("Tema deja exista" + tema);
         }
     }
 
