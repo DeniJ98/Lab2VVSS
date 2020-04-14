@@ -123,6 +123,9 @@ public class Service {
         try{
             Tema tema = parametersValidator.validateParametersTema(nrTema, descriere,deadline ,primire );
             temaValidator.validate(tema);
+            if (findTema(tema.getID()) != null) {
+                throw new ValidationException("Tema exista deja!");
+            }
             return temaFileRepository.save(tema);
         }
         catch(ValidationException ex) {
