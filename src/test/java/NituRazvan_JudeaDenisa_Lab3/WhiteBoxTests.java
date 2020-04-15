@@ -62,54 +62,61 @@ public class WhiteBoxTests {
 
 
     // WHITE-BOX TESTING - FOR LAB3 In Class!!!!
+
     @Test
-    public void TC_1() // tema corecta adaugata
+    public void TC_1()  // Deadline-ul trebuie sa fie un numar!
     {
-        assertEquals(TestTema(), true);
-    }
-    @Test
-    public void TC_2() // exista deja tema
-    {
-        service.addTema(nrTema, descriere, deadline, primire);
+        deadline = "17";
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_3() // Deadline-ul trebuie sa fie un numar!
-    {
-        deadline = "3d";
-        assertEquals(TestTema(), false);
-    }
-    @Test
-    public void TC_4() // Primirea trebuie sa fie un numar!
+    public void TC_2() // Primirea trebuie sa fie un numar!
     {
         primire = "3d";
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_5() // Numar tema invalid!
+    public void TC_3() // Numar tema invalid!
     {
         nrTema = "";
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_6()  // Descriere invalida!
+    public void TC_4()  // Descriere invalida!
     {
         descriere = "";
         assertEquals(TestTema(), false);
     }
+
     @Test
-    public void TC_7()  // Deadline-ul trebuie sa fie intre 1-14.
+    public void TC_5() // Deadline-ul trebuie sa fie intre 1-14!
     {
-        deadline = "17";
+        deadline = "35";
         assertEquals(TestTema(), false);
     }
 
     @Test
-    public void TC_8()  // Saptamana primirii trebuie sa fie intre 1-14.
+    public void TC_6()  // Saptamana primirii trebuie sa fie intre 1-14.
     {
         primire = "17";
         assertEquals(TestTema(), false);
     }
+
+    @Test
+    public void TC_7() // exista deja tema
+    {
+        service.addTema(nrTema, descriere, deadline, primire);
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_8() // tema corecta adaugata
+    {
+        assertEquals(TestTema(), true);
+    }
+
+
+
+
 
 
     private Boolean TestTema()

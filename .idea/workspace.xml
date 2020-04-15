@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Removed RELEASE version of JUNIT plugin">
+    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Added the target and .idea files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/repository/AbstractCrudRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/view/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586907658393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the target and .idea files">
+      <created>1586907676982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586907676982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -229,7 +234,8 @@
     <MESSAGE value="Changed save function from AbstractCrudRepository" />
     <MESSAGE value="Changed if condition inside adaugaTema function" />
     <MESSAGE value="Added the extra check regarding &quot;tema&quot; existence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the extra check regarding &quot;tema&quot; existence" />
+    <MESSAGE value="Added the target and .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the target and .idea files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="175" key="#AppTest" timestamp="1586907400121">
@@ -244,38 +250,38 @@
     </state>
     <state x="557" y="158" key="#AppTest.Group_TC_2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667062275" />
     <state x="557" y="175" key="#AppTest/0.0.1920.1040@0.0.1920.1040" timestamp="1586907400121" />
-    <state x="1037" y="175" key="#WhiteBoxTests" timestamp="1586907412271">
+    <state x="1037" y="175" key="#WhiteBoxTests" timestamp="1586909127522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1037" y="175" key="#WhiteBoxTests/0.0.1920.1040@0.0.1920.1040" timestamp="1586907412271" />
+    <state x="1037" y="175" key="#WhiteBoxTests/0.0.1920.1040@0.0.1920.1040" timestamp="1586909127522" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585674092388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586907657854">
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586907687219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907657854" />
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907687219" />
     <state x="0" y="157" key="DiffContextDialog" timestamp="1586907475759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="157" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586907475759" />
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1586907414064">
+    <state width="914" height="319" key="GridCell.Tab.0.bottom" timestamp="1586909130780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586907414064" />
-    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1586907414064">
+    <state width="914" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
+    <state width="914" height="319" key="GridCell.Tab.0.center" timestamp="1586909130780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586907414064" />
-    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1586907414063">
+    <state width="914" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
+    <state width="914" height="319" key="GridCell.Tab.0.left" timestamp="1586909130780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586907414063" />
-    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1586907414064">
+    <state width="914" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
+    <state width="914" height="319" key="GridCell.Tab.0.right" timestamp="1586909130780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586907414064" />
+    <state width="914" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
     <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1586898031569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585731530952" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586793199980">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586907697852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586793199980" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907697852" />
     <state x="717" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585728359958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,16 +332,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java</url>
-          <line>116</line>
+          <line>123</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab2VVSS$WhiteBoxTests.ic" NAME="WhiteBoxTests Coverage Results" MODIFIED="1586909130751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>NituRazvan_JudeaDenisa_Lab3.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
