@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Added the target and .idea files">
+    <list default="true" id="69e5dd0b-c27d-4fc7-88bd-253f0bf21735" name="Default Changelist" comment="Rearrange the tests">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NituRazvan_JudeaDenisa_Lab3/validation/TemaValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NituRazvan_JudeaDenisa_Lab3/validation/parameters/ParametersValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="263" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,6 +28,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,16 +93,7 @@
       <recent name="C:\Users\Xps 9560\Documents\PPD\NituRazvan_JudeaDenisa_Lab3\src\test\java\NituRazvan_JudeaDenisa_Lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WhiteBoxTests">
-    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2VVSS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.NituRazvan_JudeaDenisa_Lab3 in Lab2VVSS">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NituRazvan_JudeaDenisa_Lab3" />
       <extension name="coverage">
@@ -110,6 +107,20 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NituRazvan_JudeaDenisa_Lab3 in Lab2VVSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NituRazvan_JudeaDenisa_Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NituRazvan_JudeaDenisa_Lab3" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,18 +174,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest (1)" />
       <item itemvalue="JUnit.WhiteBoxTests" />
       <item itemvalue="JUnit.WhiteBoxTests.TC_1" />
       <item itemvalue="JUnit.WhiteBoxTests.TC_5" />
+      <item itemvalue="JUnit.NituRazvan_JudeaDenisa_Lab3 in Lab2VVSS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NituRazvan_JudeaDenisa_Lab3 in Lab2VVSS" />
         <item itemvalue="JUnit.WhiteBoxTests" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.WhiteBoxTests.TC_5" />
         <item itemvalue="JUnit.WhiteBoxTests.TC_1" />
-        <item itemvalue="JUnit.AppTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586907676982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rearrange the tests">
+      <created>1586911387648</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586911387648</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -235,7 +253,8 @@
     <MESSAGE value="Changed if condition inside adaugaTema function" />
     <MESSAGE value="Added the extra check regarding &quot;tema&quot; existence" />
     <MESSAGE value="Added the target and .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the target and .idea files" />
+    <MESSAGE value="Rearrange the tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange the tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="175" key="#AppTest" timestamp="1586907400121">
@@ -250,54 +269,54 @@
     </state>
     <state x="557" y="158" key="#AppTest.Group_TC_2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667062275" />
     <state x="557" y="175" key="#AppTest/0.0.1920.1040@0.0.1920.1040" timestamp="1586907400121" />
-    <state x="1037" y="175" key="#WhiteBoxTests" timestamp="1586909127522">
+    <state x="1037" y="175" key="#WhiteBoxTests" timestamp="1586928123463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1037" y="175" key="#WhiteBoxTests/0.0.1920.1040@0.0.1920.1040" timestamp="1586909127522" />
+    <state x="1037" y="175" key="#WhiteBoxTests/0.0.1920.1040@0.0.1920.1040" timestamp="1586928123463" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585674092388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585674092388" />
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586907687219">
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2" timestamp="1586911408408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907687219" />
+    <state x="278" y="185" width="1138" height="811" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586911408408" />
     <state x="0" y="157" key="DiffContextDialog" timestamp="1586907475759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="157" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586907475759" />
-    <state width="914" height="319" key="GridCell.Tab.0.bottom" timestamp="1586909130780">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1586928294108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
-    <state width="914" height="319" key="GridCell.Tab.0.center" timestamp="1586909130780">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586928294108" />
+    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1586928294108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
-    <state width="914" height="319" key="GridCell.Tab.0.left" timestamp="1586909130780">
+    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586928294108" />
+    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1586928294108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
-    <state width="914" height="319" key="GridCell.Tab.0.right" timestamp="1586909130780">
+    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586928294108" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1586928294108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586909130780" />
-    <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1586898031569">
+    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586928294108" />
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1586912234925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586898031569" />
-    <state width="1877" height="416" key="GridCell.Tab.1.center" timestamp="1586898031569">
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586912234925" />
+    <state width="1877" height="416" key="GridCell.Tab.1.center" timestamp="1586912234925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586898031569" />
-    <state width="1877" height="416" key="GridCell.Tab.1.left" timestamp="1586898031569">
+    <state width="1877" height="416" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586912234925" />
+    <state width="1877" height="416" key="GridCell.Tab.1.left" timestamp="1586912234925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586898031569" />
-    <state width="1877" height="416" key="GridCell.Tab.1.right" timestamp="1586898031569">
+    <state width="1877" height="416" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586912234925" />
+    <state width="1877" height="416" key="GridCell.Tab.1.right" timestamp="1586912234925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586898031569" />
+    <state width="1877" height="416" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586912234925" />
     <state x="749" y="231" key="RollbackChangesDialog" timestamp="1586898316045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -306,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585731530952" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586907697852">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586911413748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586907697852" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586911413748" />
     <state x="717" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585728359958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,19 +346,11 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586898155370" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/NituRazvan_JudeaDenisa_Lab3/WhiteBoxTests.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab2VVSS$WhiteBoxTests.ic" NAME="WhiteBoxTests Coverage Results" MODIFIED="1586909130751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Lab2VVSS$NituRazvan_JudeaDenisa_Lab3_in_Lab2VVSS.ic" NAME="NituRazvan_JudeaDenisa_Lab3 in Lab2VVSS Coverage Results" MODIFIED="1586928294082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>NituRazvan_JudeaDenisa_Lab3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab2VVSS$WhiteBoxTests.ic" NAME="WhiteBoxTests Coverage Results" MODIFIED="1586928125722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>NituRazvan_JudeaDenisa_Lab3.*</FILTER>
     </SUITE>
   </component>

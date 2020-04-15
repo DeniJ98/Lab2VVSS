@@ -76,40 +76,57 @@ public class WhiteBoxTests {
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_3() // Numar tema invalid!
+    public void TC_3() // Numar tema invalid! (empty string)
     {
         nrTema = "";
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_4()  // Descriere invalida!
+    public void TC_4() // Numar tema invalid! (null)
+    {
+        nrTema = null;
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_5()  // Descriere invalida!
     {
         descriere = "";
         assertEquals(TestTema(), false);
     }
 
     @Test
-    public void TC_5() // Deadline-ul trebuie sa fie intre 1-14!
+    public void TC_6() // Deadline-ul trebuie sa fie intre 1-14! (mai mare ca 14)
     {
         deadline = "35";
         assertEquals(TestTema(), false);
     }
-
     @Test
-    public void TC_6()  // Saptamana primirii trebuie sa fie intre 1-14.
+    public void TC_7() // Deadline-ul trebuie sa fie intre 1-14! (mai mic ca 1)
     {
-        primire = "17";
+        deadline = "0";
         assertEquals(TestTema(), false);
     }
 
     @Test
-    public void TC_7() // exista deja tema
+    public void TC_8()  // Saptamana primirii trebuie sa fie intre 1-14. (mai mare ca 14)
+    {
+        primire = "17";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_9()  // Saptamana primirii trebuie sa fie intre 1-14. (mai mic ca 1)
+    {
+        primire = "0";
+        assertEquals(TestTema(), false);
+    }
+    @Test
+    public void TC_10() // exista deja tema
     {
         service.addTema(nrTema, descriere, deadline, primire);
         assertEquals(TestTema(), false);
     }
     @Test
-    public void TC_8() // tema corecta adaugata
+    public void TC_11() // tema corecta adaugata
     {
         assertEquals(TestTema(), true);
     }
@@ -122,10 +139,7 @@ public class WhiteBoxTests {
     private Boolean TestTema()
     {
         Tema ret = service.addTema(nrTema, descriere, deadline, primire);
-        if (ret == null)
-            return false;
-        else
-            return true;
+        return ret != null;
     }
 
 }
