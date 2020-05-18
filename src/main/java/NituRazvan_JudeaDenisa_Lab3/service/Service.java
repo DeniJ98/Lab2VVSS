@@ -187,10 +187,7 @@ public class Service {
         int predare = calculeazaSPredare(nota.getData());
         if (predare-tema.getDeadline() == 1){
             nota.setNota(nota.getNota()-2.5);
-        }
-        else if (predare - tema.getDeadline() > 1){
-            throw new ValidationException("Studentul nu mai poate preda aceasta tema!");
-        }else{
+        } else{
             notaFileRepository.save(nota);
 
             String filename = "files/" + student.getNume() + ".txt";

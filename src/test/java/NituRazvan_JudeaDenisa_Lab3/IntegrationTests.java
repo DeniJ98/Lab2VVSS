@@ -37,67 +37,63 @@ public class IntegrationTests {
     ParametersValidator parametersValidator = new ParametersValidator();
     Service service;
 
-    String nrTema;
-    String descriere;
-    String deadline;
-    String primire;
+    String idStudent1 = "nrie1111";
+    String idStudent2 = "nrie2222";
+    String idStudent3 = "nrie3333";
 
-    String idStudent;
-    String nume;
-    String grupa;
-    String email;
+    String idTema1 = "1111";
+    String idTema2 = "2222";
+    String idTema3  = "3333";
 
-    String idNota;
-    String idStudentNota;
-    String idTema;
+    String idNota1 = "1111";
+    String idNota2 = "2222";
+    String idNota3  = "3333";
+
+    String numeStudent = "numeStudent";
+    String descriere = "descriere";
+    String deadline = "14";
+    String primire = "13";
+    String grupa = "934";
+    String email = "jdac2345@scs.ubbcluj.ro";
     double nota;
-    LocalDate  data;
-
     @Before
     public void init(){
-        nrTema = "8931";
-        descriere = "descriere";
-        deadline = "5";
-        primire = "10";
-
-        idStudent = "nrie2378";
-        nume = "Razvan Nitu";
-        grupa = "935";
-        email = "mrie2378@scs.ubbcluj.ro";
-
-        idNota = "2";
-        idStudentNota = "nota1234";
-        idTema = "tema1234";
-        nota = 3;
-        data = LocalDate.now();
 
         studentXMLRepository = new StudentXMLRepo(filenameStudent);
         temaXMLRepository =  new TemaXMLRepo(filenameTema);
         notaXMLRepository =  new NotaXMLRepo(filenameNota);
         service = new Service(studentXMLRepository, studentValidator, temaXMLRepository, temaValidator, notaXMLRepository, notaValidator, parametersValidator);
-        service.addTema("tema1234", "Intr-o zi ti-am daruit o portocala", "4", "6");
     }
 
     @After
     public void reset()
     {
-        if(nrTema != null && !nrTema.equals("")) {
-            if (service.findTema(nrTema) != null)
-                service.deleteTema(nrTema);
-        }
-        if(idStudent != null && !idStudent.equals("")) {
-            if (service.findTema(idStudent) != null)
-                service.deleteTema(idStudent);
-        }
-        if(idNota != null && !idNota.equals("")) {
-            if (service.findTema(idNota) != null)
-                service.deleteTema(idNota);
-        }
+        if (service.findTema(idTema1) != null)
+            service.deleteTema(idTema1);
+        if (service.findTema(idTema2) != null)
+            service.deleteTema(idTema2);
+        if (service.findTema(idTema3) != null)
+            service.deleteTema(idTema3);
+
+        if (service.findTema(idStudent1) != null)
+            service.deleteTema(idStudent1);
+        if (service.findTema(idStudent2) != null)
+            service.deleteTema(idStudent2);
+        if (service.findTema(idStudent3) != null)
+            service.deleteTema(idStudent3);
+
+        if (service.findTema(idNota1) != null)
+            service.deleteTema(idNota1);
+        if (service.findTema(idNota2) != null)
+            service.deleteTema(idNota2);
+        if (service.findTema(idNota3) != null)
+            service.deleteTema(idNota3);
     }
     @Test
     public void TestAddStudent()
     {
-        Student retStudent = service.addStudent(idStudent, nume, grupa, email);
+        Student retStudent = service.addStudent(idStudent1, numeStudent, grupa, email);
+
         assertNotEquals(retStudent, null);
 
     }
@@ -106,26 +102,26 @@ public class IntegrationTests {
     @Test
     public void TestAddNota()
     {
-        Nota notaObj = new Nota(idNota, "maxi1003", "1", nota, data);
-        Nota retNota = service.addNota(notaObj, "");
-        assertNotEquals(retNota, null);
+        Tema retTema = service.addTema(idTema1, descriere, deadline, primire);
+        assertNotEquals(retTema, null);
     }
 
     @Test
     public void TestAddTema()
     {
-        Tema retTema = service.addTema(nrTema, descriere, deadline, primire);
-        assertNotEquals(retTema, null);
+        Student retStudent = service.addStudent(idStudent2, numeStudent, grupa, email);
+        Tema retTema = service.addTema(idTema2, descriere, deadline, primire);
+        Nota notaObj = new Nota(idNota2, retStudent.getID(), idTema2, nota, LocalDate.now());
+        Nota retNota = service.addNota(notaObj, "");
+        assertNotEquals(retNota, null);
     }
 
     @Test
     public void TestAll()
     {
-        Student retStudent = service.addStudent(idStudent, nume, grupa, email);
-        assertNotEquals(retStudent, null);
-        Tema retTema = service.addTema(nrTema, descriere, deadline, primire);
-        assertNotEquals(retTema, null);
-        Nota notaObj = new Nota(idNota, "maxi1003", "1", nota, data);
+        Student retStudent = service.addStudent(idStudent2, numeStudent, grupa, email);
+        Tema retTema = service.addTema(idTema2, descriere, deadline, primire);
+        Nota notaObj = new Nota(idNota2, retStudent.getID(), idTema2, nota, LocalDate.now());
         Nota retNota = service.addNota(notaObj, "");
         assertNotEquals(retNota, null);
     }
