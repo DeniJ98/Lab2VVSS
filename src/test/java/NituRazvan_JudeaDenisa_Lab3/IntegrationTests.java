@@ -102,12 +102,7 @@ public class IntegrationTests {
 
     }
 
-    @Test
-    public void TestAddTema()
-    {
-        Tema retTema = service.addTema(nrTema, descriere, deadline, primire);
-        assertNotEquals(retTema, null);
-    }
+
     @Test
     public void TestAddNota()
     {
@@ -115,6 +110,14 @@ public class IntegrationTests {
         Nota retNota = service.addNota(notaObj, "");
         assertNotEquals(retNota, null);
     }
+
+    @Test
+    public void TestAddTema()
+    {
+        Tema retTema = service.addTema(nrTema, descriere, deadline, primire);
+        assertNotEquals(retTema, null);
+    }
+
     @Test
     public void TestAll()
     {

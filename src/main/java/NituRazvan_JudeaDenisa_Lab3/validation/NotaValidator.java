@@ -27,14 +27,14 @@ public class NotaValidator implements Validator<Nota> {
      */
     @Override
     public void validate(Nota nota) throws ValidationException {
-        Student student = studentFileRepository.findOne(nota.getIdStudent());
-        if (student== null){
-            throw new ValidationException("Studentul nu exista!");
-        }
-        Tema tema = temaFileRepository.findOne(nota.getIdTema());
-        if(tema == null){
-            throw new ValidationException("Tema nu exista!");
-        }
+//        Student student = studentFileRepository.findOne(nota.getIdStudent());
+//        if (student == null){
+//            throw new ValidationException("Studentul nu exista!");
+//        }
+//        Tema tema = temaFileRepository.findOne(nota.getIdTema());
+//        if(tema == null){
+//            throw new ValidationException("Tema nu exista!");
+//        }
         double notaC = nota.getNota();
         if(notaC > 10.00 || notaC < 0.00){
             throw new ValidationException("Valoarea notei nu este corecta!");
